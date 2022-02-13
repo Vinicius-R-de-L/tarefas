@@ -1,0 +1,34 @@
+body{
+	background-color: #065A82;
+}
+
+a{
+	text-decoration: none;
+	color: #3AAED8;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #2BD9FE;
+}
+
+.secao{
+	width: 99vw;
+	margin: 4px auto;
+	padding: 7px;
+	border-radius: 5px;
+	background-color: #21295C;
+}
+
+.secaoh1{
+	width: 100%;
+	max-width: max-content;
+	margin: 4px auto;
+	padding: 7px;
+	border-radius: 5px;
+	background-image: linear-gradient(to right, #21295C, #21295C 95%);
+}
+
+.texto{
+	color: white;
+}
