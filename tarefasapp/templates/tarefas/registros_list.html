@@ -1,0 +1,29 @@
+{% extends 'tarefas/base.html' %}
+
+{% block content %}
+	<h1 class="texto">Autores</h1>
+	<div class="secao" style="margin-top: 25px;">
+		{% for autor in autores %}
+		        <p class="texto"><h2>Nome:</h2> <h3>{{ autor.nome }}</h3>   <h2>Sobrenome:</h2>                    <h3>{{ autor.sobrenome }}</h3></p> 
+		{% endfor %}
+	</div>
+
+	<hr>
+	
+	<h1 class="texto">Tarefas</h1>
+	<div class="secao" style="margin-top: 25px;">
+		{% for tarefa in tarefas %}
+		        <p class="texto"><h2>Titúlo:</h2> <h3>{{ tarefa.titulo }}</h3> <h2>Autor:</h2>                 <h3>{{ tarefa.autor }}</h3></p>
+		        <p class="texto"><h2>Conteúdo:</h2> <h3>{{ tarefa.info }}</h3></p>
+		{% endfor %}
+	</div>
+
+	<hr>
+
+	<h1 class="texto">Conteúdos</h1>
+	<div class="secao" style="margin-top: 25px;">
+		{% for info in infos %}
+		        <p class="texto"><h2>Conteúdo:</h2> <h3>{{ info.conteudo }}</h3></p>
+		{% endfor %}
+	</div>
+{% endblock %}

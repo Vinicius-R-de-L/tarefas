@@ -13,8 +13,6 @@ a:hover{
 }
 
 .secao{
-	width: 99vw;
-	margin: 4px auto;
 	padding: 7px;
 	border-radius: 5px;
 	background-color: #21295C;
@@ -31,4 +29,16 @@ a:hover{
 
 .texto{
 	color: white;
+}
+
+h2{
+	color: red;
+	display: inline;
+	font-size: 25px;
+}
+
+h3{
+	color: #2BD9FE;
+	display: inline;
+	font-size: 20px;
 }

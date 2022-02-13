@@ -8,3 +8,9 @@ def base(request):
 def tarefas_list(request):
     tarefas = Tarefa.objects.all()
     return render(request, 'tarefas/tarefas_list.html', {'tarefas' : tarefas})
+
+def registros_list(request):
+    autores = Autor.objects.all()
+    tarefas = Tarefa.objects.all()
+    infos = Info.objects.all()
+    return render(request, 'tarefas/registros_list.html', {'tarefas' : tarefas, 'autores' : autores, 'infos' : infos})

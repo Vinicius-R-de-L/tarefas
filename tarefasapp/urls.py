@@ -3,5 +3,5 @@ from tarefasapp import views
 
 
 urlpatterns = [
-    path('', views.tarefas_list, name='tarefas_list'),
+    path('', views.registros_list, name='registros_list'),
 ]
