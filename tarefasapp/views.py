@@ -14,3 +14,4 @@ def registros_list(request):
     tarefas = Tarefa.objects.all()
     infos = Info.objects.all()
     return render(request, 'tarefas/registros_list.html', {'tarefas' : tarefas, 'autores' : autores, 'infos' : infos})
+        

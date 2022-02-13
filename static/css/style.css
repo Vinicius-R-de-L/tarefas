@@ -42,3 +42,15 @@ h3{
 	display: inline;
 	font-size: 20px;
 }
+
+.footer{
+	padding: 7px;
+	background-color: #21295C;
+	border-radius: 5px;
+	margin: 20px;
+}
+
+.links{
+	margin: 0 100px;
+	display: inline;
+}
