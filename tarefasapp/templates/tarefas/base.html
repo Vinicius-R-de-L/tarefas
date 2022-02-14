@@ -18,10 +18,11 @@
         {% endblock %}
     </div>
     <div class="footer">
-
-    	<div class="links">
-    		<a href="{% url 'crud' %}">Nova</a>
-    	</div>
+		{% if user.is_authenticated %}
+    		<div class="links">
+    			<a href="{% url 'crud' %}">Nova</a>
+    		</div>
+		{% endif %}
 
     	<div class="links">
     		<a href="{% url 'tarefas_list' %}">Tarefas</a>
