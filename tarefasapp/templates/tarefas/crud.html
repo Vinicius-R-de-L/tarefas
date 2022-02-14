@@ -1,0 +1,15 @@
+{% extends 'tarefas/base.html' %}
+
+{% block content %}
+		<div class="texto" style="margin-top: 25px;">
+			<div class="links">
+    			<a href="{% url 'new' %}">NOVO</a>
+    		</div>
+		</div>
+
+		<div class="texto" style="margin-top: 25px;">
+    		<div class="links">
+    			<a href="{% url 'tarefas_list' %}">VER</a>
+    		</div>
+    	</div>
+{% endblock %}

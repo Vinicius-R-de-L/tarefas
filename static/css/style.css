@@ -54,3 +54,27 @@ h3{
 	margin: 0 100px;
 	display: inline;
 }
+
+.formulario{
+	width: 100%;
+	max-width: max-content;
+	padding: 20px;
+	margin: 40px auto;
+	background-color: #065A82;
+}
+
+.botao{
+	background-color: #21295C;
+	border: none;
+	width: 100%;
+	margin: 7px auto;
+	border-radius: 5px;
+}
+
+.botao:hover{
+	background-color: #2BD9FE;
+	border: none;
+	width: 100%;
+	margin: 7px auto;
+	border-radius: 10px;
+}
